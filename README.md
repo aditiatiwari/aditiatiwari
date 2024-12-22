@@ -1,13 +1,10 @@
-<h1>Hi, I'm <a href="https://www.linkedin.com/in/aditi-tiwari-aat/">Aditi</a>! 
+# Hi, I'm <a href="https://www.linkedin.com/in/aditi-tiwari-aat/">Aditi</a>! 
   
-  <br/> Corporate Finance & Financial Planning and Analysis | Master of Science in Finance (MSF) @ Babson College | Ex-Interactive Brokers
+Corporate Finance & Financial Planning and Analysis | Master of Science in Finance (MSF) @ Babson College | Ex-Interactive Brokers
 
-<h2>👨‍💻 Financial Models:</h2>
-<b>Solar Energy Model </b>
+## 👨‍💻 Financial Models:
+[Solar Energy Model](https://github.com/aditiatiwari/aditiatiwari/blob/main/Solar%20Model.xlsx)
 
-
-
-
-<h2> 🤳 Connect with me:</h2>
+## 🤳 Connect with me:</h2>
 
 
