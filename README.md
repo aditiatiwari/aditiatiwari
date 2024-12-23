@@ -20,14 +20,14 @@ Committed to continuous learning and professional growth, as evidenced by multip
 Open to connecting with finance professionals, industry experts, and potential collaborators to exchange ideas and explore new opportunities in the ever-evolving world of finance.
 
 ## 👨‍💻 Financial Models: 
+
 - Solar Energy Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/Solar%20Model.xlsx)
 - Earnings Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/Earnings_Model.xls)
-- GoPro Valuation Model [Download](https://github.com/aditiatiwari/aditiatiwari/blob/main/GoPro_DCF_Model.xls)
-- Tesla Valuation Model [Download](https://github.com/aditiatiwari/aditiatiwari/blob/main/Tesla_Valuation_Model.xlsx)
-
-
-
-
+- GoPro Valuation Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/GoPro_DCF_Model.xls)
+- Tesla Valuation Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/Tesla_Valuation_Model.xlsx)
+- Comparable Public Companies [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/Comparable%20Public%20Companies_Comp%20Model.xls)
+- JM Smucker Comp Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/JM%20Smucker%20Comp%20Model.xls)
+  
 ## 🤳 Connect with me:
-
+<a href="https://www.linkedin.com/in/aditi-tiwari-aat/">LinkedIn</a> <a href="atiwari3@babson.edu">Email</a>
 
