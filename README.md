@@ -20,8 +20,13 @@ Committed to continuous learning and professional growth, as evidenced by multip
 Open to connecting with finance professionals, industry experts, and potential collaborators to exchange ideas and explore new opportunities in the ever-evolving world of finance.
 
 ## 👨‍💻 Financial Models: 
-### Solar Energy Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/Solar%20Model.xlsx)
-### 
+- Solar Energy Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/Solar%20Model.xlsx)
+- Earnings Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/Earnings_Model.xls)
+- GoPro Valuation Model [Download](https://github.com/aditiatiwari/aditiatiwari/blob/main/GoPro_DCF_Model.xls)
+- Tesla Valuation Model [Download](https://github.com/aditiatiwari/aditiatiwari/blob/main/Tesla_Valuation_Model.xlsx)
+
+
+
 
 ## 🤳 Connect with me:
 
