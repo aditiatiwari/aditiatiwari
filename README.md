@@ -99,5 +99,13 @@ Currently pursuing an MS in Finance at Babson College, I aim to leverage my know
     <img src="https://img.shields.io/badge/-Salesforce-00A1E0?&style=for-the-badge&logo=Salesforce&logoColor=white" />
     <img src="https://img.shields.io/badge/-Millennium-FF6600?&style=for-the-badge&logo=Millennium&logoColor=white" />
     <img src="https://img.shields.io/badge/-EViews-3333CC?&style=for-the-badge&logo=EViews&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Jira-0052CC?&style=for-the-badge&logo=Jira&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CIM-0066B3?&style=for-the-badge&logo=Microsoft-Excel&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CAM-FF6F61?&style=for-the-badge&logo=Microsoft-Excel&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Confluence-172B4D?&style=for-the-badge&logo=Atlassian&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CAST-1C3F94?&style=for-the-badge&logo=CAST&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Asana-003366?&style=for-the-badge&logo=Asana&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Slack-4A154B?&style=for-the-badge&logo=Slack&logoColor=white" />
 </div>
+
 
