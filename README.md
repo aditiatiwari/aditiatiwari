@@ -33,7 +33,18 @@ Currently pursuing an MS in Finance at Babson College, I aim to leverage my know
 
 ## 🧮 Financial Models: 
 
-- Solar Energy Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/Solar%20Model.xlsx)
+- ***Solar Energy Model*** 
+  
+   **Project:** Artemis Carbon Futures - Solar Energy Financial Modeling
+
+   **Overview:**
+   As a Financial Planning & Analysis (FP&A) Associate at Born Global Foundation, I played a key role in supporting the Artemis Carbon Futures project, a global consultancy specializing in sustainable impact. The project focused on developing financial models for solar energy initiatives, aiming to optimize financial planning and investment strategies within the renewable energy sector.
+
+  **Project Significance:**
+   This project was crucial in addressing the growing need for sustainable energy solutions, providing financial metrics to integrate clean energy into the grid, and enhancing investment decisions for solar energy projects valued at $50 million.
+
+  **Click the download button to download the Model** [💾](https://github.com/aditiatiwari/aditiatiwari/raw/main/Solar%20Model.xlsx)
+  
 - Earnings Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/Earnings_Model.xls)
 - GoPro Valuation Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/GoPro_DCF_Model.xls)
 - Tesla Valuation Model [Download](https://github.com/aditiatiwari/aditiatiwari/raw/main/Tesla_Valuation_Model.xlsx)
