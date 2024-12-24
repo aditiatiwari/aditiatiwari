@@ -61,11 +61,11 @@ Currently pursuing an MS in Finance at Babson College, I aim to leverage my know
   <img src="https://img.shields.io/badge/-FactSet%20Essentials:%20Portfolio%20Analysis-0055A4?style=for-the-badge&logo=FactSet&logoColor=white" alt="FactSet Essentials: Portfolio Analysis Certificate" /></a>
 <a href="https://verify.skilljar.com/c/h5gir2p9yywj" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/-FactSet%20Essentials:%20Universal%20Screening-0055A4?style=for-the-badge&logo=FactSet&logoColor=white" alt="FactSet Essentials: Universal Screening Certificate" /></a>
-<a href="YOUR_CERTIFICATE_URL" target="_blank" rel="noopener noreferrer">
+<a target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/-NISM%20SERIES%20I%20Currency%20Derivatives%20Certification%20Examination-1D72B8?style=for-the-badge&logo=National-Institute-of-Securities-Markets&logoColor=white" alt="NISM SERIES I Currency Derivatives Certification Examination Certificate" /></a>
-<a href="YOUR_CERTIFICATE_URL" target="_blank" rel="noopener noreferrer">
+<a target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/-NISM%20SERIES%20VIII%20Equity%20Derivatives%20Certification%20Exam-1D72B8?style=for-the-badge&logo=National-Institute-of-Securities-Markets&logoColor=white" alt="NISM SERIES VIII Equity Derivatives Certification Exam Certificate" /></a>
-<a href="YOUR_CERTIFICATE_URL" target="_blank" rel="noopener noreferrer">
+<a target="_blank" rel="noopener noreferrer">
 
 ### Data Analysis & Programming Certifications
 <a href="https://www.udemy.com/certificate/UC-971c7023-e5eb-4756-becb-1756be3f1c62/" target="_blank" rel="noopener noreferrer">
