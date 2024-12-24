@@ -3,28 +3,33 @@ Corporate Finance & Financial Planning and Analysis | Master of Science in Finan
 
 <a href="https://www.linkedin.com/in/aditi-tiwari-aat/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:atiwari3@babson.edu"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" /></a>
+<a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Download%20My%20Resume-0072b1?style=for-the-badge&logo=pdf&logoColor=white" alt="Download My Resume"> </a>
 
 ## 🎯 Objective
 Driven and analytical finance professional seeking to leverage my Master of Science in Finance from Babson College, along with my experience in financial operations and data analysis, to contribute to a dynamic organization in a challenging role. Aiming to apply my expertise in financial modeling, strategic budgeting, and process optimization to drive financial excellence and support data-driven decision-making. Committed to utilizing my technical skills in advanced Excel, Python, and financial tools to enhance operational efficiency and deliver actionable insights in corporate finance and financial planning and analysis.
 
 📄 Get to know more about me: [Aditi Anil Tiwari Resume](https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf)
 
-## 👨‍💻Introduction 
+<p style="font-size: 18px; font-weight: bold; color: #0072b1;">
+  📄 Get to know more about me: <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf" target="_blank" rel="noopener noreferrer" style="color: #fff; background-color: #0072b1; padding: 5px 10px; border-radius: 5px; text-decoration: none;">Download My Resume</a>
+</p>
 
-Passionate finance professional with a strong foundation in financial analysis, data-driven decision-making, and strategic planning. Currently pursuing an MS in Finance at Babson College, leveraging advanced technical skills and industry knowledge to drive financial excellence.
 
-Experienced in optimizing financial processes, conducting in-depth market research, and developing comprehensive financial models. Proven track record of enhancing operational efficiency and delivering actionable insights across various finance domains.
+## 👨‍💻 Introduction
 
-Key strengths include:
-- Financial modeling and valuation
-- Data analysis and visualization
-- Strategic budgeting and reporting
-- Process optimization
-- Treasury operations
+**Driven by a passion for finance, I thrive in solving complex financial challenges and turning data into actionable insights. With a robust foundation in financial analysis and a deep understanding of market dynamics, I'm constantly evolving to keep up with the fast-paced world of finance.**
 
-Committed to continuous learning and professional growth, as evidenced by multiple certifications in finance, data analysis, and emerging technologies. Seeking opportunities to apply my expertise in challenging roles within the finance industry.
+Currently pursuing an MS in Finance at Babson College, I aim to leverage my knowledge and skills to tackle financial challenges, drive corporate growth, and contribute to financial excellence. I am committed to lifelong learning and always seeking opportunities to develop my expertise.
 
-Open to connecting with finance professionals, industry experts, and potential collaborators to exchange ideas and explore new opportunities in the ever-evolving world of finance.
+### Key Strengths:
+- **Financial Modeling & Valuation:** Skilled in creating and interpreting complex financial models.
+- **Data Analysis & Visualization:** Expertise in leveraging tools like Excel, Python, and Tableau for data-driven decision making.
+- **Strategic Budgeting & Reporting:** Proficient in developing and presenting detailed financial forecasts and reports.
+- **Process Optimization:** Experience in streamlining financial processes for enhanced efficiency and cost savings.
+- **Treasury Operations:** In-depth knowledge of managing cash flow, liquidity, and investment strategies.
+
+**Let’s connect and explore ways we can collaborate or discuss new opportunities in the finance industry!**
+
 
 ## 🧮 Financial Models: 
 
@@ -38,8 +43,7 @@ Open to connecting with finance professionals, industry experts, and potential c
 ## 📜 Certifications
 
 ### Finance & Investment Certifications
-<a href="https://portal.bloombergforeducation.com/certificates/71QLzgUsPo2uUhBb5dFVexMw" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/-Bloomberg:%20Market%20Concept,%20Finance%20Fundamental%20%26%20ESG-000000?&style=for-the-badge&logo=Bloomberg&logoColor=white" /></a>
+<a href="https://portal.bloombergforeducation.com/certificates/71QLzgUsPo2uUhBb5dFVexMw" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Bloomberg:%20Market%20Concept,%20Finance%20Fundamental%20%26%20ESG-000000?&style=for-the-badge&logo=Bloomberg&logoColor=white" /></a>
 <a href="https://portal.bloombergforeducation.com/certificates/b2YFoyswBVNZmFhL6n4zsZHw" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/-Bloomberg%20Finance%20Fundamentals-000000?style=for-the-badge&logo=Bloomberg&logoColor=white" alt="Bloomberg Finance Fundamentals Certificate"/></a>
 <a href="https://verify.skilljar.com/c/truj79atmggf" target="_blank" rel="noopener noreferrer">
