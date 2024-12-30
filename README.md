@@ -8,13 +8,6 @@ Corporate Finance & Financial Planning and Analysis | Master of Science in Finan
 ## 🎯 Objective
 Driven and analytical finance professional seeking to leverage my Master of Science in Finance from Babson College, along with my experience in financial operations and data analysis, to contribute to a dynamic organization in a challenging role. Aiming to apply my expertise in financial modeling, strategic budgeting, and process optimization to drive financial excellence and support data-driven decision-making. Committed to utilizing my technical skills in advanced Excel, Python, and financial tools to enhance operational efficiency and deliver actionable insights in corporate finance and financial planning and analysis.
 
-📄 Get to know more about me: [Aditi Anil Tiwari Resume](https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf)
-
-<p style="font-size: 18px; font-weight: bold; color: #0072b1;">
-  📄 Get to know more about me: <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf" target="_blank" rel="noopener noreferrer" style="color: #fff; background-color: #0072b1; padding: 5px 10px; border-radius: 5px; text-decoration: none;">Download My Resume</a>
-</p>
-
-
 ## 👨‍💻 Introduction
 
 **Driven by a passion for finance, I thrive in solving complex financial challenges and turning data into actionable insights. With a robust foundation in financial analysis and a deep understanding of market dynamics, I'm constantly evolving to keep up with the fast-paced world of finance.**
