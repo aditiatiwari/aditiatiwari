@@ -117,7 +117,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 
   **Project Significance:** The significance of this Comp Model lies in its ability to provide valuable insights for strategic decision-making, investment analysis, and industry benchmarking. By highlighting the strengths and weaknesses of each company across multiple financial dimensions, it enables identification of industry trends, competitive advantages, and potential areas for improvement. The model's flexibility allows for easy updates with new financial data, making it a dynamic tool for ongoing analysis. This project showcases my ability to synthesize complex financial information into a clear, actionable format, demonstrating my skills in financial modeling, industry analysis, and strategic thinking within the consumer goods sector.
 
-**Click the download button to download the Model** [💾](https://github.com/aditiatiwari/aditiatiwari/raw/main/JM%20Smucker%20Comp%20Model.xls)
+  **Click the download button to download the Model** [💾](https://github.com/aditiatiwari/aditiatiwari/raw/main/JM%20Smucker%20Comp%20Model.xls)
 
 
 ## 📜 Certifications
