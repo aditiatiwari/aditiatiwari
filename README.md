@@ -61,7 +61,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 
   By creating this earnings model, I've provided Brew with a robust financial framework that can guide decision-making, support fundraising efforts, and drive the business towards sustainable growth and profitability.
 
-  <a href="https://github.com/aditiatiwari/aditiatiwari/blob/main/Brew%20Earnings%20Model.xlsx" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
+  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Brew%20Earnings%20Model.xlsx" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
   
 - ***GoPro Valuation Model***
 
@@ -79,7 +79,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
   
   In creating this DCF model, I've provided a robust financial framework that can guide investment decisions, support strategic planning, and offer a clear picture of GoPro's financial future. This tool will be invaluable for both internal decision-making at GoPro and for external stakeholders seeking to understand the company's true value and growth potential.
 
-   <a href="https://github.com/aditiatiwari/aditiatiwari/blob/main/GoPro_DCF_Model.xls" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
+   <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/GoPro_DCF_Model.xls" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
   
 - ***Tesla Valuation Model***
   
