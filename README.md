@@ -21,8 +21,8 @@ Corporate Finance & Financial Planning and Analysis | Master of Science in Finan
 4. [📁 Projects](#-projects)
    - [Bank Debt-to-Equity Ratios and Financial Performance](#bank-debt-to-equity-ratios-and-financial-performance-in-response-to-interest-rate-changes-leveraging-data-analytics-for-financial-insights)
    - [Hedge Fund Analysis](#hedge-fund-analysis)
-   - [Study on Personal Loans, Education Loans, and Car Loan Services](#study-on-personal-loans-education-loans-and-car-loan-services)
    - [Research on Financial Statements of GameStop Corp](#research-on-financial-statements-of-gamestop-corp)
+   - [Study on Personal Loans, Education Loans, and Car Loan Services](#study-on-personal-loans-education-loans-and-car-loan-services)
 5. [📜 Certifications](#-certifications)  
     - [Finance & Investment Certifications](#finance--investment-certifications)  
     - [Data Analysis & Programming Certifications](#data-analysis--programming-certifications)  
@@ -159,7 +159,8 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
   By leveraging Python's data analysis capabilities, we were able to handle large datasets, perform complex calculations, and generate insightful visualizations to support our findings and hypothesis testing
 
   <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Presentation.pptx" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a>
-  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Financial%20Data%20Analysis%20and%20Practice%20Project.ipynb" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20code-4169E1?style=for-the-badge&logo=download&logoColor=white" alt="Download Code" /> </a> 
+  <a href="https://github.com/aditiatiwari/aditiatiwari/blob/main/Financial%20Data%20Analysis%20and%20Practice%20Project.ipynb" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20code-4169E1?style=for-the-badge&logo=download&logoColor=white" alt="Download Code" /> </a> 
+
 - ### ***Hedge Fund Analysis*** 
   
    I developed a comprehensive hedge fund portfolio analysis for a fund with $50 million in shareholder capital. The portfolio consists of five strategic positions across various financial instruments, including credit default swaps, Treasury bonds, mortgage-backed securities, and Federal Farm Credit Banks bonds. Each position is carefully structured to capitalize on specific market conditions and expectations, demonstrating a sophisticated approach to fixed income and credit markets.
@@ -168,6 +169,15 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 The detailed analysis of each trade, including specific notional amounts and underlying assets, highlights the level of precision required in professional fund management. This project serves as an excellent educational tool, bridging theoretical concepts with practical application in portfolio management and financial markets. It also underscores the importance of understanding correlations between different market segments, such as the relationship between high-yield indices or the impact of interest rates on various sectors.
 
   <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Hedge%20Fund%20Analysis%20Project.pdf" target="_blank" rel="noopener noreferrer">  <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20pdf-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /></a>
+
+- ### ***Research on Financial Statements of GameStop Corp***
+
+    My project focused on conducting a comprehensive financial analysis of GameStop Corp (GME), a prominent player in the retail of multichannel video games, consumer electronics, and wireless services. As a student of Cost and Management Accounting, I aimed to delve deep into the company's financial statements, market position, and operational performance to gain valuable insights into its financial health and strategic direction.
+Through this analysis, I examined GameStop's income statements, balance sheets, and key financial ratios over a three-year period from 2017 to 2019. My goal was to identify trends, strengths, and potential areas of concern in the company's financial performance. I also explored GameStop's competitive landscape, market share, and brief history to provide context for the financial data.
+The significance of this project lay in its potential to enhance my understanding of real-world financial analysis and its application to a well-known company in the dynamic video game retail industry. By scrutinizing GameStop's financial data, I hoped to develop critical analytical skills that are essential for a career in cost and management accounting. Furthermore, this project allowed me to practice interpreting complex financial information, identifying key performance indicators, and drawing meaningful conclusions from the data.
+Additionally, given GameStop's recent prominence in the news due to unprecedented stock market activity, this analysis took on added significance. It provided an opportunity to examine the company's financial foundation prior to these events, offering valuable context for understanding its situation and potential future trajectory. Through this project, I aimed to demonstrate my ability to conduct thorough financial research and present findings in a clear, concise, and professional manner.
+
+  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Research%20on%20GameStop%20Corp%20(GME).pdf" target="_blank" rel="noopener noreferrer">  <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20pdf-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /></a>
   
 - ### ***Study on Personal Loans, Education Loans, and Car Loan Services***
 
@@ -178,15 +188,6 @@ Through this project, I also aimed to develop my research and analytical skills,
 
   <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/A%20basic%20study%20on%20personal%20loan%2C%20education%20loan%20and%20car%20loan%20services%20offered%20by%20hdfc%20bank.pdf" target="_blank" rel="noopener noreferrer">  <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20pdf-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /></a>
 
-
-- ### ***Research on Financial Statements of GameStop Corp***
-
-    My project focused on conducting a comprehensive financial analysis of GameStop Corp (GME), a prominent player in the retail of multichannel video games, consumer electronics, and wireless services. As a student of Cost and Management Accounting, I aimed to delve deep into the company's financial statements, market position, and operational performance to gain valuable insights into its financial health and strategic direction.
-Through this analysis, I examined GameStop's income statements, balance sheets, and key financial ratios over a three-year period from 2017 to 2019. My goal was to identify trends, strengths, and potential areas of concern in the company's financial performance. I also explored GameStop's competitive landscape, market share, and brief history to provide context for the financial data.
-The significance of this project lay in its potential to enhance my understanding of real-world financial analysis and its application to a well-known company in the dynamic video game retail industry. By scrutinizing GameStop's financial data, I hoped to develop critical analytical skills that are essential for a career in cost and management accounting. Furthermore, this project allowed me to practice interpreting complex financial information, identifying key performance indicators, and drawing meaningful conclusions from the data.
-Additionally, given GameStop's recent prominence in the news due to unprecedented stock market activity, this analysis took on added significance. It provided an opportunity to examine the company's financial foundation prior to these events, offering valuable context for understanding its situation and potential future trajectory. Through this project, I aimed to demonstrate my ability to conduct thorough financial research and present findings in a clear, concise, and professional manner.
-
-  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Research%20on%20GameStop%20Corp%20(GME).pdf" target="_blank" rel="noopener noreferrer">  <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20pdf-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /></a>
 
 
 
