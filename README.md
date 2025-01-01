@@ -19,7 +19,7 @@ Corporate Finance & Financial Planning and Analysis | Master of Science in Finan
     - [Comparable Public Companies Model for Apparel Retail Industry](#comparable-public-companies-model-for-apparel-retail-industry)  
     - [JM Smucker Comp Model](#jm-smucker-comp-model)
 4. [📁 Projects](#-projects)
-   - [Bank Debt-to-Equity Ratios and Financial Performance](#bank-debt-to-equity-ratios-and-financial-performance-in-response-to-interest-rate-changes-leveraging-data-analytics-for-financial-insights)
+   - [Bank Debt-to-Equity Ratios and Financial Performance in Response to Interest Rate Changes](#bank-debt-to-equity-ratios-and-financial-performance-in-response-to-interest-rate-changes-leveraging-data-analytics-for-financial-insights)
    - [Hedge Fund Analysis](#hedge-fund-analysis)
    - [Research on Financial Statements of GameStop Corp](#research-on-financial-statements-of-gamestop-corp)
    - [Study on Personal Loans, Education Loans, and Car Loan Services](#study-on-personal-loans-education-loans-and-car-loan-services)
