@@ -44,7 +44,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 
 ## 🧮 Financial Models: 
 
-- ***Solar Energy Model*** 
+- ### ***Solar Energy Model*** 
   
    **Project:** Artemis Carbon Futures - Solar Energy Financial Modeling
 
@@ -56,7 +56,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 
   <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Solar%20Model.xlsx" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
   
-- ***Earnings Model for an undisclosed private company***
+- ### ***Earnings Model for an undisclosed private company***
 
     **Overview:**
     I developed a comprehensive Earnings Model for an undisclosed private company. This sophisticated Excel-based tool projects the company's financial performance over a five-year period from 2021 to 2025. The model integrates advanced predictive analytics to generate detailed projections of key financial statements, including the income statement, balance sheet, and cash flow statement. By incorporating various company-specific assumptions and drivers, such as revenue growth rates, cost structures, and working capital requirements, the model creates a holistic view of the company's future financial position.
@@ -66,7 +66,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 
   <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Earnings_Model.xls" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
 
-- ***Earnings Model for Brew***
+- ### ***Earnings Model for Brew***
   
   **Overview:**
   I've developed an earnings model for Brew, a coffee shop business, using Excel to analyze and project its financial performance. The model provides a comprehensive overview of Brew's operations, focusing on key financial metrics and projections.
@@ -82,7 +82,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 
   <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Brew%20Earnings%20Model.xlsx" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
   
-- ***GoPro Valuation Model***
+- ### ***GoPro Valuation Model***
 
   **Overview:**
   I've created a comprehensive Discounted Cash Flow (DCF) model for GoPro, utilizing Excel to analyze and project the company's financial performance and intrinsic value. This model provides a detailed overview of GoPro's operations, focusing on key financial metrics and future projections.
@@ -100,7 +100,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 
    <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/GoPro_DCF_Model.xls" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
   
-- ***Tesla Valuation Model***
+- ### ***Tesla Valuation Model***
   
   **Overview:**
   The Tesla Valuation Model is a comprehensive Discounted Cash Flow (DCF) analysis designed to determine the intrinsic value of Tesla's stock. This financial model incorporates advanced Excel functions and strategic forecasting techniques to project Tesla's future financial performance over a five-year period, from 2023 to 2027. The model includes detailed projections of key financial metrics such as revenue, EBITDA, EBIT, and net income, as well as important financial ratios and growth drivers. It also features a sensitivity analysis that examines how changes in the discount rate and Gordon growth rate affect the implied share price.
@@ -110,7 +110,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 
    <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Tesla_Valuation_Model.xlsx" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
 
-- ***Comparable Public Companies Model for Apparel Retail industry***
+- ### ***Comparable Public Companies Model for Apparel Retail industry***
 
   **Overview:**
    I've developed a comprehensive comparable companies analysis model for the apparel retail industry, focusing on key players such as The Gap, Inc., Urban Outfitters, Inc., Guess?, Inc., Abercrombie & Fitch Co., and Capri Holdings Limited. This model provides a detailed overview of these companies' financial performance and valuation metrics, allowing for meaningful comparisons across the sector.
@@ -126,7 +126,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 
   <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Comparable%20Public%20Companies_Comp%20Model.xls" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
 
-- ***JM Smucker Comp Model*** 
+- ### ***JM Smucker Comp Model*** 
 
   **Overview:**
     I developed a comprehensive Comparable Company Analysis (Comp) Model for leading food and beverage companies including Conagra Brands, Danone, Campbell Soup, General Mills, Kraft Heinz, and Kellogg. This Excel-based model provides a detailed comparison of key financial metrics and valuation multiples across these industry peers.
