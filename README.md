@@ -5,6 +5,18 @@ Corporate Finance & Financial Planning and Analysis | Master of Science in Finan
 <a href="mailto:atiwari3@babson.edu"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" /></a>
 <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Download%20My%20Resume-0072b1?style=for-the-badge&logo=pdf&logoColor=white" alt="Download My Resume"> </a>
 
+## Table Of Content
+- [Hi, I'm Aditi!](#hi--i-m-aditi-)
+  * [🎯 Objective](#---objective)
+  * [👨‍💻 Introduction](#------introduction)
+    + [Key Strengths:](#key-strengths-)
+  * [🧮 Financial Models:](#---financial-models-)
+  * [📜 Certifications](#---certifications)
+    + [Finance & Investment Certifications](#finance---investment-certifications)
+    + [Data Analysis & Programming Certifications](#data-analysis---programming-certifications)
+    + [Accounting & Reporting Certifications](#accounting---reporting-certifications)
+  * [🛠️ Tools](#----tools)
+  
 ## 🎯 Objective
 Driven and analytical finance professional seeking to leverage my Master of Science in Finance from Babson College, along with my experience in financial operations and data analysis, to contribute to a dynamic organization in a challenging role. Aiming to apply my expertise in financial modeling, strategic budgeting, and process optimization to drive financial excellence and support data-driven decision-making. Committed to utilizing my technical skills in advanced Excel, Python, and financial tools to enhance operational efficiency and deliver actionable insights in corporate finance and financial planning and analysis.
 
