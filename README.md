@@ -17,12 +17,17 @@ Corporate Finance & Financial Planning and Analysis | Master of Science in Finan
     - [GoPro Valuation Model](#gopro-valuation-model)  
     - [Tesla Valuation Model](#tesla-valuation-model)  
     - [Comparable Public Companies Model for Apparel Retail Industry](#comparable-public-companies-model-for-apparel-retail-industry)  
-    - [JM Smucker Comp Model](#jm-smucker-comp-model)  
-4. [📜 Certifications](#-certifications)  
+    - [JM Smucker Comp Model](#jm-smucker-comp-model)
+4. [📁 Projects](#-projects)
+   - [Bank Debt-to-Equity Ratios and Financial Performance](#bank-debt-to-equity-ratios-and-financial-performance-in-response-to-interest-rate-changes-leveraging-data-analytics-for-financial-insights)
+   - [Hedge Fund Analysis](#hedge-fund-analysis)
+   - [Study on Personal Loans, Education Loans, and Car Loan Services](#study-on-personal-loans-education-loans-and-car-loan-services)
+   - [Research on Financial Statements of GameStop Corp](#research-on-financial-statements-of-gamestop-corp)
+5. [📜 Certifications](#-certifications)  
     - [Finance & Investment Certifications](#finance--investment-certifications)  
     - [Data Analysis & Programming Certifications](#data-analysis--programming-certifications)  
     - [Accounting & Reporting Certifications](#accounting--reporting-certifications)  
-5. [🛠️ Software Tools](#%EF%B8%8F-software-tools)
+6. [🛠️ Software Tools](#%EF%B8%8F-software-tools)
 
   
 ## 🎯 Objective
@@ -136,7 +141,54 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
 
   **Project Significance:** The significance of this Comp Model lies in its ability to provide valuable insights for strategic decision-making, investment analysis, and industry benchmarking. By highlighting the strengths and weaknesses of each company across multiple financial dimensions, it enables identification of industry trends, competitive advantages, and potential areas for improvement. The model's flexibility allows for easy updates with new financial data, making it a dynamic tool for ongoing analysis. This project showcases my ability to synthesize complex financial information into a clear, actionable format, demonstrating my skills in financial modeling, industry analysis, and strategic thinking within the consumer goods sector.
 
-  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/JM%20Smucker%20Comp%20Model.xls" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
+  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/JM%20Smucker%20Comp%20Model.xls" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a>
+
+## 📁 Projects  
+- ### ***Bank Debt-to-Equity Ratios and Financial Performance in Response to Interest Rate Changes: Leveraging Data Analytics for Financial Insights***
+
+  Our objective for this project was to investigate the relationship between banks' debt-to-equity (D/E) ratios and their financial performance in response to interest rate changes. We aimed to test the hypothesis that banks with higher D/E ratios would experience better returns as interest rates increased.
+  
+  The significance of this project lay in its potential to provide valuable insights for investors and financial analysts. By examining the correlation between leverage levels and bank performance during periods of interest rate fluctuations, we sought to uncover patterns that could inform investment strategies and risk management practices in the banking sector. Additionally, our research could contribute to a better understanding of how different banks' capital structures influence their ability to navigate changing economic conditions.
+
+  We approached this study by categorizing selected banks into high, medium, and low D/E ratio groups and analyzing their monthly returns from January 2021 to April 2024. By calculating the correlation between interest rate changes and returns for each portfolio, we aimed to identify any significant trends or relationships that could support or refute our hypothesis.
+
+  We coded the project in Python to present the results of our analysis. This approach allowed us to efficiently process and visualize the financial data for the selected banks. We utilized libraries such as yfinance to download stock data, pandas for data manipulation, and plotly for creating interactive visualizations.
+
+  Our Python script calculated monthly returns for the bank tickers from January 2021 to April 2024, categorizing them into high, medium, and low D/E ratio groups. We then exported this data to Excel files for further analysis and created correlation matrices to examine the relationship between interest rate changes and returns for each bank.
+
+  By leveraging Python's data analysis capabilities, we were able to handle large datasets, perform complex calculations, and generate insightful visualizations to support our findings and hypothesis testing
+
+  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Presentation.pptx" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a>
+  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Financial%20Data%20Analysis%20and%20Practice%20Project.ipynb" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20code-4169E1?style=for-the-badge&logo=download&logoColor=white" alt="Download Code" /> </a> 
+- ### ***Hedge Fund Analysis*** 
+  
+   I developed a comprehensive hedge fund portfolio analysis for a fund with $50 million in shareholder capital. The portfolio consists of five strategic positions across various financial instruments, including credit default swaps, Treasury bonds, mortgage-backed securities, and Federal Farm Credit Banks bonds. Each position is carefully structured to capitalize on specific market conditions and expectations, demonstrating a sophisticated approach to fixed income and credit markets.
+
+  The significance of this hedge fund portfolio analysis lies in its demonstration of advanced risk management techniques and diverse investment strategies in modern financial markets. By incorporating a range of financial instruments, the project showcases the complexity and breadth of contemporary hedge fund strategies. It provides valuable insights into current market conditions and future expectations, particularly in high-yield credit markets, commercial real estate, and interest rate environments.
+The detailed analysis of each trade, including specific notional amounts and underlying assets, highlights the level of precision required in professional fund management. This project serves as an excellent educational tool, bridging theoretical concepts with practical application in portfolio management and financial markets. It also underscores the importance of understanding correlations between different market segments, such as the relationship between high-yield indices or the impact of interest rates on various sectors.
+
+  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Hedge%20Fund%20Analysis%20Project.pdf" target="_blank" rel="noopener noreferrer">  <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20pdf-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /></a>
+  
+- ### ***Study on Personal Loans, Education Loans, and Car Loan Services***
+
+    The objective of my project was to conduct a basic study on the personal loan, education loan, and car loan services offered by HDFC Bank. Through this research, I aimed to gain insights into the reasons why individuals took personal loans, understand the various courses for which people obtained education loans, and assess customer satisfaction regarding HDFC Bank's loan services.
+This study held significant importance in the financial landscape at the time. As one of India's leading private sector banks, HDFC Bank played a crucial role in providing credit to individuals and supporting their financial goals. By analyzing their loan offerings and customer experiences, I hoped to shed light on the effectiveness of HDFC Bank's services and identify areas for potential improvement.
+Furthermore, this research had broader implications for understanding consumer behavior and preferences in the Indian banking sector. The findings could provide valuable insights for financial institutions, policymakers, and researchers interested in the dynamics of personal, education, and car loan markets in India. Additionally, by examining customer satisfaction levels, this study aimed to highlight best practices or areas of concern in loan servicing that could be relevant to the wider banking industry.
+Through this project, I also aimed to develop my research and analytical skills, gaining hands-on experience in conducting market research and analyzing financial services. This knowledge would be invaluable for my academic and professional growth in the field of commerce and finance.
+
+  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/A%20basic%20study%20on%20personal%20loan%2C%20education%20loan%20and%20car%20loan%20services%20offered%20by%20hdfc%20bank.pdf" target="_blank" rel="noopener noreferrer">  <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20pdf-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /></a>
+
+
+- ### ***Research on Financial Statements of GameStop Corp***
+
+    My project focused on conducting a comprehensive financial analysis of GameStop Corp (GME), a prominent player in the retail of multichannel video games, consumer electronics, and wireless services. As a student of Cost and Management Accounting, I aimed to delve deep into the company's financial statements, market position, and operational performance to gain valuable insights into its financial health and strategic direction.
+Through this analysis, I examined GameStop's income statements, balance sheets, and key financial ratios over a three-year period from 2017 to 2019. My goal was to identify trends, strengths, and potential areas of concern in the company's financial performance. I also explored GameStop's competitive landscape, market share, and brief history to provide context for the financial data.
+The significance of this project lay in its potential to enhance my understanding of real-world financial analysis and its application to a well-known company in the dynamic video game retail industry. By scrutinizing GameStop's financial data, I hoped to develop critical analytical skills that are essential for a career in cost and management accounting. Furthermore, this project allowed me to practice interpreting complex financial information, identifying key performance indicators, and drawing meaningful conclusions from the data.
+Additionally, given GameStop's recent prominence in the news due to unprecedented stock market activity, this analysis took on added significance. It provided an opportunity to examine the company's financial foundation prior to these events, offering valuable context for understanding its situation and potential future trajectory. Through this project, I aimed to demonstrate my ability to conduct thorough financial research and present findings in a clear, concise, and professional manner.
+
+  <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Research%20on%20GameStop%20Corp%20(GME).pdf" target="_blank" rel="noopener noreferrer">  <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20pdf-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /></a>
+
+
 
 ## 📜 Certifications
 
