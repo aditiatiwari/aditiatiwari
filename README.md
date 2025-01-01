@@ -7,11 +7,10 @@ Corporate Finance & Financial Planning and Analysis | Master of Science in Finan
 
 ## Table of Contents  
 
-1. [Hi, I'm Aditi!](#hi-im-aditi)  
-2. [🎯 Objective](#-objective)  
-3. [👨‍💻 Introduction](#-introduction)  
+1. [🎯 Objective](#-objective)  
+2. [👨‍💻 Introduction](#-introduction)  
     - [Key Strengths](#key-strengths)  
-4. [🧮 Financial Models](#-financial-models)  
+3. [🧮 Financial Models](#-financial-models)  
     - [Solar Energy Model](#solar-energy-model)  
     - [Earnings Model for an Undisclosed Private Company](#earnings-model-for-an-undisclosed-private-company)  
     - [Earnings Model for Brew](#earnings-model-for-brew)  
@@ -19,11 +18,11 @@ Corporate Finance & Financial Planning and Analysis | Master of Science in Finan
     - [Tesla Valuation Model](#tesla-valuation-model)  
     - [Comparable Public Companies Model for Apparel Retail Industry](#comparable-public-companies-model-for-apparel-retail-industry)  
     - [JM Smucker Comp Model](#jm-smucker-comp-model)  
-5. [📜 Certifications](#-certifications)  
+4. [📜 Certifications](#-certifications)  
     - [Finance & Investment Certifications](#finance--investment-certifications)  
     - [Data Analysis & Programming Certifications](#data-analysis--programming-certifications)  
     - [Accounting & Reporting Certifications](#accounting--reporting-certifications)  
-6. [🛠️ Software Tools](#%EF%B8%8F-software-tools)
+5. [🛠️ Software Tools](#%EF%B8%8F-software-tools)
 
   
 ## 🎯 Objective
