@@ -5,7 +5,7 @@ Corporate Finance & Financial Planning and Analysis | Master of Science in Finan
 <a href="mailto:atiwari3@babson.edu"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" /></a>
 <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Download%20My%20Resume-0072b1?style=for-the-badge&logo=pdf&logoColor=white" alt="Download My Resume"> </a>
 
-## Table of Contents  
+## Table of Content  
 
 1. [🎯 Objective](#-objective)  
 2. [👨‍💻 Introduction](#-introduction)  
