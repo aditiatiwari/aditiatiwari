@@ -3,7 +3,8 @@ Corporate Finance & Financial Planning and Analysis | Master of Science in Finan
 
 <a href="https://www.linkedin.com/in/aditi-tiwari-aat/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:atiwari3@babson.edu"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" /></a>
-<a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Download%20My%20Resume-0072b1?style=for-the-badge&logo=pdf&logoColor=white" alt="Download My Resume"> </a>
+<a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Download%20My%20Resume-0072b1?style=for-the-badge&logo=pdf&logoColor=white" alt="Download My Resume"> </a> 
+<a href="https://github.com/aditiatiwari" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-GitHub-181717?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" /> </a>
 
 ## Table of Content  
 
@@ -194,6 +195,7 @@ Through this project, I also aimed to develop my research and analytical skills,
 ## 📜 Certifications
 
 ### Finance & Investment Certifications
+<a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/MBA4MnZTNFEoJZGnk/ETGMhLB5eCrYjcH8o_MBA4MnZTNFEoJZGnk_X9vM9suA2WSoqMHoQ_1736634064816_completion_certificate.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Forage:%20Goldman%20Sachs%20Risk%20Job%20Simulation-FFD700?style=for-the-badge&logo=Goldman%20Sachs&logoColor=black" alt="Goldman Sachs Risk Job Simulation Certificate" /></a>
 <a href="https://portal.bloombergforeducation.com/certificates/71QLzgUsPo2uUhBb5dFVexMw" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Bloomberg:%20Market%20Concept,%20Finance%20Fundamental%20%26%20ESG-000000?&style=for-the-badge&logo=Bloomberg&logoColor=white" /></a>
 <a href="https://portal.bloombergforeducation.com/certificates/b2YFoyswBVNZmFhL6n4zsZHw" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/-Bloomberg%20Finance%20Fundamentals-000000?style=for-the-badge&logo=Bloomberg&logoColor=white" alt="Bloomberg Finance Fundamentals Certificate"/></a>
@@ -246,6 +248,12 @@ Through this project, I also aimed to develop my research and analytical skills,
     <img src="https://img.shields.io/badge/-CAST-1C3F94?&style=for-the-badge&logo=CAST&logoColor=white" />
     <img src="https://img.shields.io/badge/-Asana-003366?&style=for-the-badge&logo=Asana&logoColor=white" />
     <img src="https://img.shields.io/badge/-Slack-4A154B?&style=for-the-badge&logo=Slack&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Tableau-E97627?&style=for-the-badge&logo=Tableau&logoColor=white" />
+    <img src="https://img.shields.io/badge/-SAP-0FAAFF?&style=for-the-badge&logo=SAP&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Power%20BI-F2C811?&style=for-the-badge&logo=Power-BI&logoColor=black" />
+
+</a>
+
 </div>
 
 
