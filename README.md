@@ -1,5 +1,5 @@
 # Hi, I'm Aditi! 
-Corporate Finance & Financial Planning and Analysis | Master of Science in Finance (MSF) @ Babson College | Ex-Interactive Brokers
+Corporate Finance & Financial Planning and Analysis | Risk Management | MS in Finance (MSF) @ Babson College | Ex-Interactive Brokers
 
 <a href="https://www.linkedin.com/in/aditi-tiwari-aat/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:atiwari3@babson.edu"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" /></a>
