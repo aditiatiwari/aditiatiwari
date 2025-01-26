@@ -143,6 +143,7 @@ As a graduate with an MS in Finance from Babson College, I leverage my knowledge
   **Project Significance:** The significance of this Comp Model lies in its ability to provide valuable insights for strategic decision-making, investment analysis, and industry benchmarking. By highlighting the strengths and weaknesses of each company across multiple financial dimensions, it enables identification of industry trends, competitive advantages, and potential areas for improvement. The model's flexibility allows for easy updates with new financial data, making it a dynamic tool for ongoing analysis. This project showcases my ability to synthesize complex financial information into a clear, actionable format, demonstrating my skills in financial modeling, industry analysis, and strategic thinking within the consumer goods sector.
 
   <a href="https://github.com/aditiatiwari/aditiatiwari/raw/main/JM%20Smucker%20Comp%20Model.xls" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a>
+  
 
 ## 📁 Projects  
 - ### ***Bank Debt-to-Equity Ratios and Financial Performance in Response to Interest Rate Changes: Leveraging Data Analytics for Financial Insights***
@@ -222,6 +223,7 @@ Through this project, I also aimed to develop my research and analytical skills,
   <img src="https://img.shields.io/badge/-FinTech:%20Foundations,%20Payments,%20and%20Regulations-0061F2?style=for-the-badge&logo=Coursera&logoColor=white" alt="Coursera: FinTech: Foundations, Payments, and Regulations Certificate" /></a>
 
 ### Accounting & Reporting Certifications
+<a href="https://www.credly.com/badges/a60a60c7-cf1b-4677-9691-3e5c54b6496d/linked_in_profile" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Overview%20of%20Financials%20in%20SAP%20S%2F4HANA-0FAAFF?style=for-the-badge&logo=SAP&logoColor=white" alt="SAP S/4HANA Financials Overview" /></a>
 <a href="https://www.linkedin.com/learning/certificates/4b630317c04ec561e7cc99d36d82f77fbcb9751a44fb0e95fc158773de47bf78?u=51091521" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/-Accounting%20Foundations:%20Understanding%20the%20GAAP-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn Learning: Accounting Foundations Certificate" /></a>
 <a href="https://portal.bloombergforeducation.com/certificates/FkEDSd3YVkS5FNPuBmfyit7Y" target="_blank" rel="noopener noreferrer">
@@ -255,5 +257,8 @@ Through this project, I also aimed to develop my research and analytical skills,
 </a>
 
 </div>
+
+
+
 
 
