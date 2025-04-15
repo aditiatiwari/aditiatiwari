@@ -254,8 +254,6 @@ Through this project, I also aimed to develop my research and analytical skills,
     <img src="https://img.shields.io/badge/-SAP-0FAAFF?&style=for-the-badge&logo=SAP&logoColor=white" />
     <img src="https://img.shields.io/badge/-Power%20BI-F2C811?&style=for-the-badge&logo=Power-BI&logoColor=black" />
 
-</a>
-
 </div>
 
 
