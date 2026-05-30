@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditi Tiwari | Finance & FP&A</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0A0905;
+  --bg2:#111009;
+  --bg3:#181610;
+  --off:#F7F4EC;
+  --off2:#E8E3D5;
+  --muted:#7A7460;
+  --gold:#D4A84B;
+  --gold2:#B8892A;
+  --rust:#C05A2E;
+  --green:#2A6650;
+  --border:rgba(212,168,75,0.18);
+  --border2:rgba(247,244,236,0.08);
+}
+html{scroll-behavior:smooth}
+body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--off);line-height:1.55;overflow-x:hidden}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 3rem;background:rgba(10,9,5,0.85);backdrop-filter:blur(16px);border-bottom:1px solid var(--border2)}
+.nav-logo{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:300;letter-spacing:0.12em;color:var(--off);text-decoration:none}
+.nav-logo span{color:var(--gold)}
+.nav-right{display:flex;gap:2.5rem;list-style:none;align-items:center}
+.nav-right a{font-size:0.72rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color 0.2s}
+.nav-right a:hover{color:var(--gold)}
+.nav-cta{background:var(--gold);color:var(--bg)!important;padding:0.45rem 1.1rem;font-weight:500!important;letter-spacing:0.06em!important}
+.nav-cta:hover{background:var(--gold2)!important;color:var(--bg)!important}
+
+/* HERO — split asymmetric */
+.hero{min-height:100vh;display:grid;grid-template-columns:55% 45%;position:relative}
+.hero-left{background:var(--bg2);border-right:1px solid var(--border2);padding:10rem 4rem 5rem 5rem;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden}
+.hero-left::after{content:'';position:absolute;bottom:-60px;left:-60px;width:400px;height:400px;background:radial-gradient(circle,rgba(212,168,75,0.07) 0%,transparent 65%);pointer-events:none}
+.hero-eyebrow{font-size:0.68rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);margin-bottom:2rem;display:flex;align-items:center;gap:0.8rem}
+.hero-eyebrow::before{content:'';width:40px;height:1px;background:var(--gold)}
+.hero-name{font-family:'Cormorant Garamond',serif;font-size:clamp(3.5rem,5.5vw,5.5rem);font-weight:300;line-height:1.0;color:var(--off);margin-bottom:0.3rem}
+.hero-name strong{font-weight:600;font-style:italic;color:var(--gold)}
+.hero-role{font-size:0.82rem;letter-spacing:0.06em;color:var(--muted);margin-bottom:2.5rem;max-width:380px;line-height:1.7}
+.hero-btns{display:flex;gap:0.75rem;flex-wrap:wrap}
+.btn-gold{background:var(--gold);color:var(--bg);padding:0.7rem 1.8rem;font-size:0.75rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;transition:background 0.2s;display:inline-block}
+.btn-gold:hover{background:var(--gold2)}
+.btn-ghost{border:1px solid rgba(247,244,236,0.25);color:var(--off);padding:0.7rem 1.8rem;font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;transition:all 0.2s;display:inline-block}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+
+.hero-right-panel{background:var(--bg3);padding:10rem 3.5rem 5rem 3.5rem;display:flex;flex-direction:column;justify-content:flex-end;gap:1.5rem}
+.hero-stat{border-left:2px solid var(--gold);padding-left:1.25rem}
+.hero-stat-num{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:var(--off);line-height:1}
+.hero-stat-label{font-size:0.68rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);margin-top:0.25rem}
+.hero-tags{display:flex;flex-direction:column;gap:0.5rem;margin-top:1rem}
+.hero-tag-item{display:inline-block;background:rgba(212,168,75,0.1);border:1px solid rgba(212,168,75,0.25);color:var(--gold);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;padding:0.4rem 0.9rem;align-self:flex-start}
+
+/* TICKER STRIP */
+.ticker-strip{background:var(--gold);overflow:hidden;padding:0.6rem 0;white-space:nowrap}
+.ticker-inner{display:inline-flex;animation:ticker 30s linear infinite}
+.ticker-item{font-size:0.7rem;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:var(--bg);padding:0 2.5rem}
+.ticker-sep{color:rgba(10,9,5,0.4)}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* ABOUT */
+.about{display:grid;grid-template-columns:1fr 2fr;gap:0;border-bottom:1px solid var(--border2)}
+.about-left{background:var(--bg2);padding:5rem 3.5rem;border-right:1px solid var(--border2)}
+.about-right{padding:5rem 4rem}
+.sec-number{font-family:'Cormorant Garamond',serif;font-size:5rem;font-weight:300;color:rgba(212,168,75,0.15);line-height:1;margin-bottom:0.5rem}
+.sec-label{font-size:0.68rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:0.5rem}
+.sec-title{font-family:'Cormorant Garamond',serif;font-size:2.4rem;font-weight:400;color:var(--off);line-height:1.15}
+.sec-title em{font-style:italic;color:var(--gold)}
+.about-body{font-size:0.95rem;color:rgba(247,244,236,0.6);line-height:1.85;margin-bottom:2.5rem}
+.strengths-list{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border2)}
+.str-item{background:var(--bg);padding:1.5rem;transition:background 0.2s}
+.str-item:hover{background:var(--bg2)}
+.str-head{font-size:0.75rem;font-weight:500;letter-spacing:0.06em;color:var(--off);margin-bottom:0.4rem;display:flex;align-items:center;gap:0.6rem}
+.str-head::before{content:'';width:16px;height:1px;background:var(--gold)}
+.str-body{font-size:0.75rem;color:var(--muted);line-height:1.65}
+
+/* MODELS — magazine table layout */
+.models-section{padding:5rem 0;border-bottom:1px solid var(--border2)}
+.models-header{padding:0 5rem 3rem;display:flex;align-items:flex-end;justify-content:space-between;border-bottom:1px solid var(--border2);margin-bottom:0}
+.models-table{width:100%}
+.models-table-head{display:grid;grid-template-columns:80px 1fr 120px 100px 110px;gap:0;border-bottom:1px solid var(--border2);padding:0.75rem 5rem;background:var(--bg2)}
+.tbl-hd{font-size:0.62rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--muted)}
+.model-row{display:grid;grid-template-columns:80px 1fr 120px 100px 110px;gap:0;padding:1.5rem 5rem;border-bottom:1px solid var(--border2);align-items:center;transition:background 0.2s;cursor:default}
+.model-row:hover{background:var(--bg2)}
+.model-row-num{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:rgba(212,168,75,0.3)}
+.model-row-name{font-size:0.92rem;font-weight:500;color:var(--off);margin-bottom:0.2rem}
+.model-row-desc{font-size:0.75rem;color:var(--muted);line-height:1.5;max-width:480px}
+.model-type{font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;padding:0.3rem 0.65rem;display:inline-block}
+.type-dcf{background:rgba(42,102,80,0.25);color:#5BBEAA;border:1px solid rgba(42,102,80,0.4)}
+.type-comp{background:rgba(212,168,75,0.15);color:var(--gold);border:1px solid rgba(212,168,75,0.3)}
+.type-fpa{background:rgba(192,90,46,0.2);color:#E08060;border:1px solid rgba(192,90,46,0.35)}
+.type-earn{background:rgba(80,60,120,0.25);color:#A98FD8;border:1px solid rgba(80,60,120,0.4)}
+.model-dl-btn{display:inline-flex;align-items:center;gap:0.5rem;background:transparent;border:1px solid var(--border);color:var(--gold);font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;padding:0.45rem 0.9rem;text-decoration:none;transition:all 0.2s;font-family:'Space Grotesk',sans-serif}
+.model-dl-btn:hover{background:var(--gold);color:var(--bg);border-color:var(--gold)}
+.model-dl-btn::after{content:'↓'}
+
+/* PROJECTS */
+.projects-section{border-bottom:1px solid var(--border2)}
+.projects-header{padding:5rem 5rem 3rem;border-bottom:1px solid var(--border2)}
+.project-grid{display:grid;grid-template-columns:1fr 1fr}
+.project-card{padding:3rem 4rem;border-right:1px solid var(--border2);border-bottom:1px solid var(--border2);position:relative;overflow:hidden;transition:background 0.25s}
+.project-card:nth-child(even){border-right:none}
+.project-card:nth-child(3),.project-card:nth-child(4){border-bottom:none}
+.project-card:hover{background:var(--bg2)}
+.proj-num{font-family:'Cormorant Garamond',serif;font-size:4rem;font-weight:300;color:rgba(212,168,75,0.12);position:absolute;top:1.5rem;right:2rem;line-height:1}
+.proj-badge{display:inline-block;font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;padding:0.3rem 0.65rem;margin-bottom:1rem}
+.badge-py{background:rgba(42,102,80,0.2);color:#5BBEAA;border:1px solid rgba(42,102,80,0.35)}
+.badge-pdf{background:rgba(192,90,46,0.15);color:#E08060;border:1px solid rgba(192,90,46,0.3)}
+.proj-title{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:400;color:var(--off);margin-bottom:0.75rem;line-height:1.25}
+.proj-desc{font-size:0.78rem;color:var(--muted);line-height:1.7;margin-bottom:1.5rem}
+.proj-link{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;transition:all 0.2s;padding:0.45rem 0.9rem;border:1px solid var(--border)}
+.proj-link:hover{background:var(--gold);color:var(--bg);border-color:var(--gold)}
+.proj-link-gold{color:var(--gold)}
+.proj-link-rust{color:#E08060}
+
+/* CERTS */
+.certs-section{padding:5rem 5rem;border-bottom:1px solid var(--border2)}
+.certs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3rem;margin-top:3rem}
+.cert-col-title{font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);padding-bottom:1rem;margin-bottom:0;border-bottom:1px solid var(--border)}
+.cert-entry{padding:0.85rem 0;border-bottom:1px solid rgba(247,244,236,0.05);display:flex;align-items:flex-start;gap:0.75rem}
+.cert-entry::before{content:'→';color:var(--gold);font-size:0.75rem;margin-top:0.1rem;flex-shrink:0}
+.cert-entry a{font-size:0.8rem;color:rgba(247,244,236,0.65);text-decoration:none;line-height:1.5;transition:color 0.2s}
+.cert-entry a:hover{color:var(--gold)}
+.cert-entry span{font-size:0.8rem;color:rgba(247,244,236,0.35);line-height:1.5}
+
+/* TOOLS */
+.tools-section{background:var(--bg2);padding:5rem 5rem;border-bottom:1px solid var(--border2)}
+.tools-wrap{margin-top:3rem}
+.tools-row{display:flex;align-items:center;margin-bottom:1px;background:rgba(247,244,236,0.02);border:1px solid var(--border2);padding:1.1rem 1.5rem;gap:1rem;transition:background 0.2s}
+.tools-row:hover{background:rgba(212,168,75,0.04)}
+.tools-row-label{font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);min-width:140px;flex-shrink:0}
+.tools-chips{display:flex;flex-wrap:wrap;gap:0.5rem}
+.chip{font-size:0.72rem;letter-spacing:0.04em;color:rgba(247,244,236,0.55);background:rgba(247,244,236,0.05);padding:0.3rem 0.75rem;border:1px solid rgba(247,244,236,0.08);transition:all 0.2s}
+.chip:hover{color:var(--gold);border-color:rgba(212,168,75,0.3)}
+.chip.hot{color:var(--gold);border-color:rgba(212,168,75,0.3);background:rgba(212,168,75,0.07)}
+
+/* CONTACT */
+.contact-section{display:grid;grid-template-columns:1fr 1fr}
+.contact-left{background:var(--gold);padding:5rem 4rem;display:flex;flex-direction:column;justify-content:space-between}
+.contact-left .sec-title{color:var(--bg);font-size:3rem}
+.contact-left .sec-title em{color:rgba(10,9,5,0.5)}
+.contact-tagline{font-size:0.85rem;color:rgba(10,9,5,0.6);margin-top:1rem;line-height:1.7;max-width:340px}
+.contact-right{background:var(--bg2);padding:5rem 4rem;display:flex;flex-direction:column;gap:1px}
+.contact-entry{display:flex;align-items:center;gap:1.5rem;padding:1.5rem;border:1px solid var(--border2);background:var(--bg3);text-decoration:none;transition:all 0.25s;margin-bottom:1px}
+.contact-entry:hover{background:var(--bg);border-color:var(--border);transform:translateX(6px)}
+.contact-icon{width:44px;height:44px;background:rgba(212,168,75,0.1);border:1px solid rgba(212,168,75,0.2);display:flex;align-items:center;justify-content:center;font-size:0.85rem;color:var(--gold);flex-shrink:0;font-family:'Cormorant Garamond',serif;font-weight:400}
+.contact-text strong{display:block;font-size:0.85rem;font-weight:500;color:var(--off);margin-bottom:0.1rem}
+.contact-text span{font-size:0.73rem;color:var(--muted)}
+
+/* FOOTER */
+footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 5rem;display:flex;justify-content:space-between;align-items:center}
+.footer-name{font-family:'Cormorant Garamond',serif;font-size:0.95rem;font-weight:300;letter-spacing:0.1em;color:var(--muted)}
+.footer-copy{font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;color:rgba(122,116,96,0.5)}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  nav{padding:1rem 1.5rem}
+  .nav-right{display:none}
+  .hero{grid-template-columns:1fr}
+  .hero-right-panel{padding:3rem 2.5rem}
+  .about{grid-template-columns:1fr}
+  .about-left{border-right:none;border-bottom:1px solid var(--border2);padding:3rem 2rem}
+  .about-right{padding:3rem 2rem}
+  .strengths-list{grid-template-columns:1fr}
+  .models-header{padding:0 2rem 2rem}
+  .models-table-head{display:none}
+  .model-row{grid-template-columns:40px 1fr;padding:1.5rem 2rem;gap:1rem}
+  .model-row-num{font-size:1.3rem}
+  .model-type,.model-dl-btn-wrap{grid-column:2}
+  .projects-header{padding:3rem 2rem 2rem}
+  .project-grid{grid-template-columns:1fr}
+  .project-card{border-right:none!important;border-bottom:1px solid var(--border2)!important}
+  .project-card:last-child{border-bottom:none!important}
+  .certs-section{padding:3rem 2rem}
+  .certs-grid{grid-template-columns:1fr}
+  .tools-section{padding:3rem 2rem}
+  .tools-row{flex-direction:column;align-items:flex-start}
+  .contact-section{grid-template-columns:1fr}
+  footer{padding:1.5rem 2rem;flex-direction:column;gap:0.5rem;text-align:center}
+}
+
+@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.hero-left>*{animation:fadeIn 0.8s ease both}
+.hero-eyebrow{animation-delay:0.1s}
+.hero-name{animation-delay:0.2s}
+.hero-role{animation-delay:0.3s}
+.hero-btns{animation-delay:0.4s}
+.hero-right-panel{animation:fadeIn 0.9s 0.5s ease both}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="#">Aditi<span>.</span></a>
+  <ul class="nav-right">
+    <li><a href="#about">About</a></li>
+    <li><a href="#models">Models</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Credentials</a></li>
+    <li><a href="mailto:adititiwariat8@gmail.com" class="nav-cta">Hire Me</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow">Finance &amp; FP&A Professional</div>
+    <div class="hero-name">Aditi<br><strong>Tiwari</strong></div>
+    <p class="hero-role">Budget &amp; Financial Analyst II · University of Utah<br>MS Finance, Babson College · Ex-Interactive Brokers<br>Specialist in financial modeling, valuation &amp; data-driven FP&A.</p>
+    <div class="hero-btns">
+      <a class="btn-gold" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf" target="_blank" download>Download Resume</a>
+      <a class="btn-ghost" href="#models">View Models ↓</a>
+    </div>
+  </div>
+  <div class="hero-right-panel">
+    <div class="hero-stat">
+      <div class="hero-stat-num">10+</div>
+      <div class="hero-stat-label">Financial Models Built</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">$50M</div>
+      <div class="hero-stat-label">Solar Project Valuation Scale</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">4+</div>
+      <div class="hero-stat-label">Years Industry Experience</div>
+    </div>
+    <div class="hero-tags">
+      <span class="hero-tag-item">MSF · Babson College</span>
+      <span class="hero-tag-item">Ex-Interactive Brokers</span>
+      <span class="hero-tag-item">University of Utah</span>
+    </div>
+  </div>
+</div>
+
+<!-- TICKER -->
+<div class="ticker-strip">
+  <div class="ticker-inner">
+    <span class="ticker-item">DCF Modeling <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Comparable Company Analysis <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">FP&amp;A <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Python Analytics <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Bloomberg Terminal <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Strategic Budgeting <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Treasury Operations <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Valuation <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Risk Management <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">SAP S/4HANA <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">DCF Modeling <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Comparable Company Analysis <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">FP&amp;A <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Python Analytics <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Bloomberg Terminal <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Strategic Budgeting <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Treasury Operations <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Valuation <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">Risk Management <span class="ticker-sep">✦</span></span>
+    <span class="ticker-item">SAP S/4HANA <span class="ticker-sep">✦</span></span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div class="about" id="about">
+  <div class="about-left">
+    <div class="sec-number">01</div>
+    <div class="sec-label">About</div>
+    <div class="sec-title">Driven by<br><em>numbers,</em><br>powered by<br>insight.</div>
+  </div>
+  <div class="about-right">
+    <p class="about-body">Driven by a passion for finance, I thrive on solving complex financial challenges and turning data into actionable insights. With a robust foundation in financial analysis and a deep understanding of market dynamics, I leverage my MS in Finance from Babson College to tackle financial challenges, drive corporate growth, and contribute to financial excellence.</p>
+    <div class="strengths-list">
+      <div class="str-item">
+        <div class="str-head">Financial Modeling &amp; Valuation</div>
+        <div class="str-body">DCF, comps, earnings models across sectors from EV to renewable energy and consumer goods.</div>
+      </div>
+      <div class="str-item">
+        <div class="str-head">Data Analysis &amp; Visualization</div>
+        <div class="str-body">Python, Excel, Tableau, Power BI for data-driven decision making and interactive reporting.</div>
+      </div>
+      <div class="str-item">
+        <div class="str-head">Strategic Budgeting</div>
+        <div class="str-body">Detailed financial forecasts, budget reports, and long-range planning models for institutional use.</div>
+      </div>
+      <div class="str-item">
+        <div class="str-head">Treasury Operations</div>
+        <div class="str-body">Managing cash flow, liquidity positions, and investment strategies at institutional scale.</div>
+      </div>
+      <div class="str-item">
+        <div class="str-head">Process Optimization</div>
+        <div class="str-body">Streamlining financial workflows through automation using VBA, macros, and SAP S/4HANA.</div>
+      </div>
+      <div class="str-item">
+        <div class="str-head">Risk Management</div>
+        <div class="str-body">NISM-certified in both currency and equity derivatives; Goldman Sachs Risk simulation graduate.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODELS -->
+<div class="models-section" id="models">
+  <div class="models-header">
+    <div>
+      <div class="sec-label">Financial Models</div>
+      <div class="sec-title" style="font-size:2.2rem">Selected Work</div>
+    </div>
+    <div style="font-size:0.75rem;color:var(--muted);max-width:300px;text-align:right;line-height:1.6">Excel-based models spanning valuation, earnings forecasting, and industry comparables. All files available for download.</div>
+  </div>
+  <div class="models-table">
+    <div class="models-table-head">
+      <div class="tbl-hd">#</div>
+      <div class="tbl-hd">Model</div>
+      <div class="tbl-hd">Type</div>
+      <div class="tbl-hd">Format</div>
+      <div class="tbl-hd">Download</div>
+    </div>
+
+    <div class="model-row">
+      <div class="model-row-num">01</div>
+      <div>
+        <div class="model-row-name">Solar Energy Model — Artemis Carbon Futures</div>
+        <div class="model-row-desc">FP&A model supporting $50M solar energy initiatives. Optimizes financial planning and investment strategies in renewable energy for Born Global Foundation.</div>
+      </div>
+      <div><span class="model-type type-fpa">FP&amp;A</span></div>
+      <div style="font-size:0.7rem;color:var(--muted)">.xlsx</div>
+      <div><a class="model-dl-btn" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Solar%20Model.xlsx" target="_blank" download="Solar_Model.xlsx">Download</a></div>
+    </div>
+
+    <div class="model-row">
+      <div class="model-row-num">02</div>
+      <div>
+        <div class="model-row-name">Private Company Earnings Model</div>
+        <div class="model-row-desc">5-year integrated projection (IS, BS, CF) with scenario and sensitivity analysis for an undisclosed private company — enabling strategic planning and investor reporting.</div>
+      </div>
+      <div><span class="model-type type-earn">Earnings</span></div>
+      <div style="font-size:0.7rem;color:var(--muted)">.xls</div>
+      <div><a class="model-dl-btn" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Earnings_Model.xls" target="_blank" download="Earnings_Model.xls">Download</a></div>
+    </div>
+
+    <div class="model-row">
+      <div class="model-row-num">03</div>
+      <div>
+        <div class="model-row-name">Brew Coffee Shop Earnings Model</div>
+        <div class="model-row-desc">Revenue and cost projections across product categories. Enables pricing strategy decisions and growth planning with investor-ready financial outputs.</div>
+      </div>
+      <div><span class="model-type type-earn">Earnings</span></div>
+      <div style="font-size:0.7rem;color:var(--muted)">.xlsx</div>
+      <div><a class="model-dl-btn" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Brew%20Earnings%20Model.xlsx" target="_blank" download="Brew_Earnings_Model.xlsx">Download</a></div>
+    </div>
+
+    <div class="model-row">
+      <div class="model-row-num">04</div>
+      <div>
+        <div class="model-row-name">GoPro Valuation Model</div>
+        <div class="model-row-desc">Full DCF with sensitivity tables examining discount rate and growth assumption impact on intrinsic value. Includes competitive pressures and product launch forecasting.</div>
+      </div>
+      <div><span class="model-type type-dcf">DCF</span></div>
+      <div style="font-size:0.7rem;color:var(--muted)">.xls</div>
+      <div><a class="model-dl-btn" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/GoPro_DCF_Model.xls" target="_blank" download="GoPro_DCF_Model.xls">Download</a></div>
+    </div>
+
+    <div class="model-row">
+      <div class="model-row-num">05</div>
+      <div>
+        <div class="model-row-name">Tesla Valuation Model</div>
+        <div class="model-row-desc">5-year DCF (2023–2027) covering EBITDA, EBIT, net income, and implied share price. Sensitivity analysis on discount rate and Gordon growth rate for EV/energy sector.</div>
+      </div>
+      <div><span class="model-type type-dcf">DCF</span></div>
+      <div style="font-size:0.7rem;color:var(--muted)">.xlsx</div>
+      <div><a class="model-dl-btn" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Tesla_Valuation_Model.xlsx" target="_blank" download="Tesla_Valuation_Model.xlsx">Download</a></div>
+    </div>
+
+    <div class="model-row">
+      <div class="model-row-num">06</div>
+      <div>
+        <div class="model-row-name">Apparel Retail Comparable Companies Model</div>
+        <div class="model-row-desc">Comp analysis across Gap, Urban Outfitters, Guess, Abercrombie &amp; Fitch, and Capri Holdings — TEV/Revenue, TEV/EBITDA, and P/E for LTM and NTM periods.</div>
+      </div>
+      <div><span class="model-type type-comp">Comps</span></div>
+      <div style="font-size:0.7rem;color:var(--muted)">.xls</div>
+      <div><a class="model-dl-btn" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Comparable%20Public%20Companies_Comp%20Model.xls" target="_blank" download="Apparel_Comp_Model.xls">Download</a></div>
+    </div>
+
+    <div class="model-row">
+      <div class="model-row-num">07</div>
+      <div>
+        <div class="model-row-name">JM Smucker Comparable Companies Model</div>
+        <div class="model-row-desc">Comp analysis across Conagra, Danone, Campbell Soup, General Mills, Kraft Heinz, and Kellogg — EV/EBITDA, P/E, and ROIC benchmarking in packaged food.</div>
+      </div>
+      <div><span class="model-type type-comp">Comps</span></div>
+      <div style="font-size:0.7rem;color:var(--muted)">.xls</div>
+      <div><a class="model-dl-btn" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/JM%20Smucker%20Comp%20Model.xls" target="_blank" download="JM_Smucker_Comp_Model.xls">Download</a></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- PROJECTS -->
+<div class="projects-section" id="projects">
+  <div class="projects-header">
+    <div class="sec-number" style="font-size:3.5rem;margin-bottom:0.25rem">02</div>
+    <div class="sec-label">Research Projects</div>
+    <div class="sec-title" style="font-size:2.2rem">Deep Dives</div>
+  </div>
+  <div class="project-grid">
+
+    <div class="project-card">
+      <div class="proj-num">01</div>
+      <span class="proj-badge badge-py">Python + Excel</span>
+      <div class="proj-title">Bank D/E Ratios &amp; Interest Rate Sensitivity</div>
+      <div class="proj-desc">Investigated whether banks with higher debt-to-equity ratios outperform during rising rate environments. Analyzed monthly returns Jan 2021–Apr 2024 using Python (yfinance, pandas, plotly) across high, medium, and low D/E portfolios with correlation matrices.</div>
+      <div style="display:flex;gap:0.75rem;flex-wrap:wrap">
+        <a class="proj-link proj-link-gold" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Presentation.pptx" target="_blank" download="DE_Ratio_Presentation.pptx">↓ Presentation</a>
+        <a class="proj-link proj-link-gold" href="https://github.com/aditiatiwari/aditiatiwari/blob/main/Financial%20Data%20Analysis%20and%20Practice%20Project.ipynb" target="_blank">↗ View Code</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="proj-num">02</div>
+      <span class="proj-badge badge-pdf">PDF Report</span>
+      <div class="proj-title">Hedge Fund Portfolio Analysis — $50M</div>
+      <div class="proj-desc">Comprehensive hedge fund portfolio spanning credit default swaps, Treasury bonds, MBS, and Federal Farm Credit Banks bonds. Demonstrates advanced risk management techniques across fixed income and credit markets.</div>
+      <a class="proj-link proj-link-rust" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Hedge%20Fund%20Analysis%20Project.pdf" target="_blank" download="Hedge_Fund_Analysis.pdf">↓ Download PDF</a>
+    </div>
+
+    <div class="project-card">
+      <div class="proj-num">03</div>
+      <span class="proj-badge badge-pdf">PDF Report</span>
+      <div class="proj-title">GameStop Corp Financial Statement Research</div>
+      <div class="proj-desc">Three-year (2017–2019) analysis of GameStop's income statements, balance sheets, and key financial ratios. Provides foundational context preceding the landmark 2021 short-squeeze event and dramatic market volatility.</div>
+      <a class="proj-link proj-link-rust" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Research%20on%20GameStop%20Corp%20(GME).pdf" target="_blank" download="GameStop_Research.pdf">↓ Download PDF</a>
+    </div>
+
+    <div class="project-card">
+      <div class="proj-num">04</div>
+      <span class="proj-badge badge-pdf">PDF Report</span>
+      <div class="proj-title">HDFC Bank Loan Services Study</div>
+      <div class="proj-desc">Primary research on personal, education, and car loan services at HDFC Bank. Analyzes borrower motivations, loan type preferences, and customer satisfaction across India's private banking sector.</div>
+      <a class="proj-link proj-link-rust" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/A%20basic%20study%20on%20personal%20loan%2C%20education%20loan%20and%20car%20loan%20services%20offered%20by%20hdfc%20bank.pdf" target="_blank" download="HDFC_Loan_Study.pdf">↓ Download PDF</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- CERTIFICATIONS -->
+<div class="certs-section" id="certifications">
+  <div class="sec-number" style="font-size:3.5rem;margin-bottom:0.25rem">03</div>
+  <div class="sec-label">Credentials</div>
+  <div class="sec-title" style="font-size:2.2rem">Certifications</div>
+  <div class="certs-grid">
+
+    <div>
+      <div class="cert-col-title">Finance &amp; Investment</div>
+      <div class="cert-entry"><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/MBA4MnZTNFEoJZGnk/ETGMhLB5eCrYjcH8o_MBA4MnZTNFEoJZGnk_X9vM9suA2WSoqMHoQ_1736634064816_completion_certificate.pdf" target="_blank">Forage: Goldman Sachs Risk Job Simulation</a></div>
+      <div class="cert-entry"><a href="https://portal.bloombergforeducation.com/certificates/71QLzgUsPo2uUhBb5dFVexMw" target="_blank">Bloomberg: Market Concepts, Finance Fundamentals &amp; ESG</a></div>
+      <div class="cert-entry"><a href="https://portal.bloombergforeducation.com/certificates/b2YFoyswBVNZmFhL6n4zsZHw" target="_blank">Bloomberg Finance Fundamentals</a></div>
+      <div class="cert-entry"><a href="https://verify.skilljar.com/c/truj79atmggf" target="_blank">FactSet Essentials: Portfolio Analysis</a></div>
+      <div class="cert-entry"><a href="https://verify.skilljar.com/c/h5gir2p9yywj" target="_blank">FactSet Essentials: Universal Screening</a></div>
+      <div class="cert-entry"><span>NISM Series I — Currency Derivatives</span></div>
+      <div class="cert-entry"><span>NISM Series VIII — Equity Derivatives</span></div>
+    </div>
+
+    <div>
+      <div class="cert-col-title">Data Analysis &amp; Programming</div>
+      <div class="cert-entry"><a href="https://www.udemy.com/certificate/UC-971c7023-e5eb-4756-becb-1756be3f1c62/" target="_blank">Microsoft Excel: Beginner to Advanced (Macros &amp; VBA)</a></div>
+      <div class="cert-entry"><a href="https://app.diplomasafe.com/en-US/diploma/dd64f69f4448d28b6ed248f343e84023348323dea" target="_blank">Python: Core Data Analysis — Marquee Group</a></div>
+      <div class="cert-entry"><a href="https://coursera.org/share/946474909f3d42df7af6755c1cb72b43" target="_blank">Fundamentals of Visualization with Tableau — Coursera</a></div>
+      <div class="cert-entry"><a href="https://coursera.org/share/f40da3c984fd02bc493b16bbb4d08bf1" target="_blank">The Future of Payment Technologies — Coursera</a></div>
+      <div class="cert-entry"><a href="https://coursera.org/share/88607617bebe855ebe997e3a92036ba9" target="_blank">FinTech: Foundations, Payments &amp; Regulations — Coursera</a></div>
+    </div>
+
+    <div>
+      <div class="cert-col-title">Accounting &amp; Reporting</div>
+      <div class="cert-entry"><a href="https://www.credly.com/badges/a60a60c7-cf1b-4677-9691-3e5c54b6496d/linked_in_profile" target="_blank">Overview of Financials in SAP S/4HANA — Credly</a></div>
+      <div class="cert-entry"><a href="https://www.linkedin.com/learning/certificates/4b630317c04ec561e7cc99d36d82f77fbcb9751a44fb0e95fc158773de47bf78?u=51091521" target="_blank">Accounting Foundations: Understanding GAAP — LinkedIn Learning</a></div>
+      <div class="cert-entry"><a href="https://portal.bloombergforeducation.com/certificates/FkEDSd3YVkS5FNPuBmfyit7Y" target="_blank">Bloomberg Environmental Social Governance (ESG)</a></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- TOOLS -->
+<div class="tools-section">
+  <div class="sec-label">Toolkit</div>
+  <div class="sec-title" style="font-size:2.2rem">Software &amp; Platforms</div>
+  <div class="tools-wrap">
+    <div class="tools-row">
+      <div class="tools-row-label">Core Finance</div>
+      <div class="tools-chips">
+        <span class="chip hot">Advanced Excel</span>
+        <span class="chip hot">Bloomberg Terminal</span>
+        <span class="chip hot">FactSet</span>
+        <span class="chip hot">Capital IQ</span>
+        <span class="chip">PitchBook</span>
+        <span class="chip">@Risk</span>
+        <span class="chip">EViews</span>
+      </div>
+    </div>
+    <div class="tools-row">
+      <div class="tools-row-label">Programming</div>
+      <div class="tools-chips">
+        <span class="chip hot">Python</span>
+        <span class="chip hot">VBA &amp; Macros</span>
+        <span class="chip">Tableau</span>
+        <span class="chip">Power BI</span>
+      </div>
+    </div>
+    <div class="tools-row">
+      <div class="tools-row-label">Enterprise</div>
+      <div class="tools-chips">
+        <span class="chip hot">SAP S/4HANA</span>
+        <span class="chip">Salesforce</span>
+        <span class="chip">Millennium</span>
+        <span class="chip">CAST</span>
+        <span class="chip">CIM</span>
+        <span class="chip">CAM</span>
+      </div>
+    </div>
+    <div class="tools-row">
+      <div class="tools-row-label">Productivity</div>
+      <div class="tools-chips">
+        <span class="chip">MS Office Suite</span>
+        <span class="chip">Jira</span>
+        <span class="chip">Confluence</span>
+        <span class="chip">Asana</span>
+        <span class="chip">Slack</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="contact-section" id="contact">
+  <div class="contact-left">
+    <div>
+      <div class="sec-title" style="color:var(--bg)">Let's<br><em>work</em><br>together.</div>
+      <p class="contact-tagline">Open to opportunities in corporate finance, FP&A, and financial analysis. I'd love to connect and explore how we can collaborate.</p>
+    </div>
+    <div style="font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(10,9,5,0.45)">University of Utah · Salt Lake City, UT</div>
+  </div>
+  <div class="contact-right">
+    <a class="contact-entry" href="https://www.linkedin.com/in/aditi-tiwari-aat/" target="_blank">
+      <div class="contact-icon">in</div>
+      <div class="contact-text">
+        <strong>LinkedIn</strong>
+        <span>aditi-tiwari-aat — Connect professionally</span>
+      </div>
+    </a>
+    <a class="contact-entry" href="mailto:adititiwariat8@gmail.com">
+      <div class="contact-icon">@</div>
+      <div class="contact-text">
+        <strong>Email</strong>
+        <span>adititiwariat8@gmail.com</span>
+      </div>
+    </a>
+    <a class="contact-entry" href="https://github.com/aditiatiwari/aditiatiwari/raw/main/Aditi%20Anil%20Tiwari%20Resume.pdf" target="_blank" download="Aditi_Tiwari_Resume.pdf">
+      <div class="contact-icon">↓</div>
+      <div class="contact-text">
+        <strong>Resume</strong>
+        <span>Download full PDF resume</span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <span class="footer-name">Aditi Tiwari</span>
+  <span class="footer-copy">© 2025 · Budget &amp; Financial Analyst II</span>
+</footer>
+
+</body>
+</html>
