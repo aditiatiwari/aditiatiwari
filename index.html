@@ -97,7 +97,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .type-earn{background:rgba(80,60,120,0.25);color:#A98FD8;border:1px solid rgba(80,60,120,0.4)}
 .model-dl-btn{display:inline-flex;align-items:center;gap:0.5rem;background:transparent;border:1px solid var(--border);color:var(--gold);font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;padding:0.45rem 0.9rem;text-decoration:none;transition:all 0.2s;font-family:'Space Grotesk',sans-serif}
 .model-dl-btn:hover{background:var(--gold);color:var(--bg);border-color:var(--gold)}
-.model-dl-btn::after{content:'↓'}
+.model-dl-btn::after{content:' ↓'}
 
 /* PROJECTS */
 .projects-section{border-bottom:1px solid var(--border2)}
@@ -110,7 +110,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .proj-num{font-family:'Cormorant Garamond',serif;font-size:4rem;font-weight:300;color:rgba(212,168,75,0.12);position:absolute;top:1.5rem;right:2rem;line-height:1}
 .proj-badge{display:inline-block;font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;padding:0.3rem 0.65rem;margin-bottom:1rem}
 .badge-py{background:rgba(42,102,80,0.2);color:#5BBEAA;border:1px solid rgba(42,102,80,0.35)}
-.badge-pdf{background:rgba(192,90,46,0.15);color:#E08060;border:1px solid rgba(192,90,46,0.3)}
+.badge-pdf{background:rgba(192,90,46,0.15);color:#E08060;border:1px solid rgba(192,90,46,0.35)}
 .proj-title{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:400;color:var(--off);margin-bottom:0.75rem;line-height:1.25}
 .proj-desc{font-size:0.78rem;color:var(--muted);line-height:1.7;margin-bottom:1.5rem}
 .proj-link{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;transition:all 0.2s;padding:0.45rem 0.9rem;border:1px solid var(--border)}
@@ -123,7 +123,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .certs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3rem;margin-top:3rem}
 .cert-col-title{font-size:0.68rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);padding-bottom:1rem;margin-bottom:0;border-bottom:1px solid var(--border)}
 .cert-entry{padding:0.85rem 0;border-bottom:1px solid rgba(247,244,236,0.05);display:flex;align-items:flex-start;gap:0.75rem}
-.cert-entry::before{content:'→';color:var(--gold);font-size:0.75rem;margin-top:0.1rem;flex-shrink:0}
+.cert-entry::before{content:'✦';color:var(--gold);font-size:0.65rem;margin-top:0.1rem;flex-shrink:0}
 .cert-entry a{font-size:0.8rem;color:rgba(247,244,236,0.65);text-decoration:none;line-height:1.5;transition:color 0.2s}
 .cert-entry a:hover{color:var(--gold)}
 .cert-entry span{font-size:0.8rem;color:rgba(247,244,236,0.35);line-height:1.5}
@@ -137,7 +137,30 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .tools-chips{display:flex;flex-wrap:wrap;gap:0.5rem}
 .chip{font-size:0.72rem;letter-spacing:0.04em;color:rgba(247,244,236,0.55);background:rgba(247,244,236,0.05);padding:0.3rem 0.75rem;border:1px solid rgba(247,244,236,0.08);transition:all 0.2s}
 .chip:hover{color:var(--gold);border-color:rgba(212,168,75,0.3)}
-.chip.hot{color:var(--gold);border-color:rgba(212,168,75,0.3);background:rgba(212,168,75,0.07)}
+
+/* ACADEMIC FOUNDATION SECTION */
+.edu-section{display:grid;grid-template-columns:1fr 2fr;gap:0;border-bottom:1px solid var(--border2)}
+.edu-section-left{background:var(--bg3);padding:5rem 3.5rem;border-right:1px solid var(--border2)}
+.edu-section-right{padding:5rem 4rem;background:var(--bg)}
+.edu-stack{display:flex;flex-direction:column;gap:3.5rem}
+.edu-block{position:relative}
+.edu-header-row{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1rem}
+.edu-institution{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:400;color:var(--off);line-height:1.2;letter-spacing:0.02em}
+.edu-institution span{color:var(--gold);font-style:italic}
+.edu-meta-right{text-align:right}
+.edu-timeline{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:300;color:var(--gold)}
+.edu-location{font-size:0.68rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-top:0.25rem}
+.edu-degree-line{font-size:0.9rem;font-weight:500;color:var(--off2);margin-bottom:1.5rem;display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap}
+.edu-badge{background:rgba(212,168,75,0.1);border:1px solid rgba(212,168,75,0.2);color:var(--gold);font-size:0.65rem;letter-spacing:0.08em;padding:0.25rem 0.65rem;text-transform:uppercase}
+.edu-gpa{font-size:0.8rem;color:var(--muted)}
+.edu-gpa strong{color:var(--off)}
+.edu-details-box{border-top:1px solid var(--border2);padding-top:1.25rem;display:flex;flex-direction:column;gap:1rem}
+.edu-detail-item{display:grid;grid-template-columns:140px 1fr;gap:1.5rem}
+.edu-detail-label{font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);padding-top:0.2rem}
+.edu-detail-content{font-size:0.82rem;color:rgba(247,244,236,0.65);line-height:1.6}
+.edu-detail-content ul{list-style:none}
+.edu-detail-content li{position:relative;padding-left:1rem;margin-bottom:0.4rem}
+.edu-detail-content li::before{content:'✦';position:absolute;left:0;color:var(--gold);font-size:0.65rem;top:1px}
 
 /* CONTACT */
 .contact-section{display:grid;grid-template-columns:1fr 1fr}
@@ -166,7 +189,7 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 5
   .about{grid-template-columns:1fr}
   .about-left{border-right:none;border-bottom:1px solid var(--border2);padding:3rem 2rem}
   .about-right{padding:3rem 2rem}
-  .strengths-list{grid-template-columns:1fr}
+  .strengths-list{grid-template-columns:1fr;margin-bottom:2rem}
   .models-header{padding:0 2rem 2rem}
   .models-table-head{display:none}
   .model-row{grid-template-columns:40px 1fr;padding:1.5rem 2rem;gap:1rem}
@@ -180,6 +203,12 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 5
   .certs-grid{grid-template-columns:1fr}
   .tools-section{padding:3rem 2rem}
   .tools-row{flex-direction:column;align-items:flex-start}
+  .edu-section{grid-template-columns:1fr}
+  .edu-section-left{border-right:none;border-bottom:1px solid var(--border2);padding:3rem 2rem}
+  .edu-section-right{padding:3rem 2rem}
+  .edu-header-row{flex-direction:column;gap:0.5rem}
+  .edu-meta-right{text-align:left}
+  .edu-detail-item{grid-template-columns:1fr;gap:0.4rem}
   .contact-section{grid-template-columns:1fr}
   footer{padding:1.5rem 2rem;flex-direction:column;gap:0.5rem;text-align:center}
 }
@@ -202,7 +231,8 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 5
     <li><a href="#models">Models</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#certifications">Credentials</a></li>
-    <li><a href="mailto:adititiwariat8@gmail.com" class="nav-cta">Get in Touch</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
   </ul>
 </nav>
 
@@ -251,16 +281,6 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 5
     <span class="ticker-item">Valuation <span class="ticker-sep">✦</span></span>
     <span class="ticker-item">Risk Management <span class="ticker-sep">✦</span></span>
     <span class="ticker-item">SAP S/4HANA <span class="ticker-sep">✦</span></span>
-    <span class="ticker-item">DCF Modeling <span class="ticker-sep">✦</span></span>
-    <span class="ticker-item">Comparable Company Analysis <span class="ticker-sep">✦</span></span>
-    <span class="ticker-item">FP&amp;A <span class="ticker-sep">✦</span></span>
-    <span class="ticker-item">Python Analytics <span class="ticker-sep">✦</span></span>
-    <span class="ticker-item">Bloomberg Terminal <span class="ticker-sep">✦</span></span>
-    <span class="ticker-item">Strategic Budgeting <span class="ticker-sep">✦</span></span>
-    <span class="ticker-item">Treasury Operations <span class="ticker-sep">✦</span></span>
-    <span class="ticker-item">Valuation <span class="ticker-sep">✦</span></span>
-    <span class="ticker-item">Risk Management <span class="ticker-sep">✦</span></span>
-    <span class="ticker-item">SAP S/4HANA <span class="ticker-sep">✦</span></span>
   </div>
 </div>
 
@@ -269,34 +289,36 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 5
   <div class="about-left">
     <div class="sec-number">01</div>
     <div class="sec-label">About</div>
-    <div class="sec-title">Driven by<br><em>numbers,</em><br>powered by<br>insight.</div>
+    <div class="sec-title">Bridging<br><em>strategy</em><br>&amp; institutional<br>excellence.</div>
   </div>
   <div class="about-right">
-    <p class="about-body">Driven by a passion for finance, I thrive on solving complex financial challenges and turning data into actionable insights. With a robust foundation in financial analysis and a deep understanding of market dynamics, I leverage my MS in Finance from Babson College to tackle financial challenges, drive corporate growth, and contribute to financial excellence.</p>
+    <p class="about-body">Currently serving as a <strong>Budget and Financial Analyst II at the University of Utah</strong>, I leverage corporate agility, advanced data engineering, and an MS in Finance from Babson College to manage large-scale institutional frameworks. From navigating complex multi-system reconciliations to building predictive capital allocation models for executive leadership, my focus is always on optimizing financial stewardship and process data pipelines.</p>
+    
+    <!-- Professional Strengths -->
     <div class="strengths-list">
       <div class="str-item">
-        <div class="str-head">Financial Modeling &amp; Valuation</div>
-        <div class="str-body">DCF, comps, earnings models across sectors from EV to renewable energy and consumer goods.</div>
+        <div class="str-head">Lease &amp; Capital Modeling</div>
+        <div class="str-body">Evaluated multi-scenario lease exits for 26K+ RSF properties, leveraging DCF frameworks to quantify over $512K in termination liabilities for leadership decision-making.</div>
       </div>
       <div class="str-item">
-        <div class="str-head">Data Analysis &amp; Visualization</div>
-        <div class="str-body">Python, Excel, Tableau, Power BI for data-driven decision making and interactive reporting.</div>
+        <div class="str-head">Data Infrastructure &amp; SQL</div>
+        <div class="str-body">Engineered automated data verification pipelines utilizing SQL and Advanced Excel, driving significant improvements in cross-system report processing speeds.</div>
       </div>
       <div class="str-item">
-        <div class="str-head">Strategic Budgeting</div>
-        <div class="str-body">Detailed financial forecasts, budget reports, and long-range planning models for institutional use.</div>
+        <div class="str-head">Strategic Budgeting &amp; AOP</div>
+        <div class="str-body">Executed salary-benefit ratio optimization to eliminate structural anomalies, leading to 100% target alignment for state reports and Annual Operating Plans.</div>
       </div>
       <div class="str-item">
-        <div class="str-head">Treasury Operations</div>
-        <div class="str-body">Managing cash flow, liquidity positions, and investment strategies at institutional scale.</div>
+        <div class="str-head">Data Integrity &amp; ERP Systems</div>
+        <div class="str-body">Validated 12,415+ high-volume meal plan transactions across disparate platforms (StarRez &amp; Atrium ERP) to seamlessly resolve financial variances during month-end closes.</div>
       </div>
       <div class="str-item">
-        <div class="str-head">Process Optimization</div>
-        <div class="str-body">Streamlining financial workflows through automation using VBA, macros, and SAP S/4HANA.</div>
+        <div class="str-head">GAAP Financial Reporting</div>
+        <div class="str-body">Built highly compliant audit variance frameworks across 25,000+ accounts to reinforce accounting accuracy and support robust quarterly close cycles.</div>
       </div>
       <div class="str-item">
-        <div class="str-head">Risk Management</div>
-        <div class="str-body">NISM-certified in both currency and equity derivatives; Goldman Sachs Risk simulation graduate.</div>
+        <div class="str-head">Renewable Energy FP&amp;A</div>
+        <div class="str-body">Constructed dynamic scenario frameworks and LRP models for $50M green infrastructure portfolios, resulting in an 18% ROI increase across active project pipelines.</div>
       </div>
     </div>
   </div>
@@ -484,7 +506,7 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 5
   </div>
 </div>
 
-<!-- TOOLS  -->
+<!-- TOOLS -->
 <div class="tools-section">
   <div class="sec-label">Skills &amp; Toolkit</div>
   <div class="sec-title" style="font-size:2.2rem">Software &amp; Competencies</div>
@@ -552,15 +574,6 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 5
         <span class="chip">Confluence</span>
         <span class="chip">Asana</span>
         <span class="chip">Slack</span>
-      </div>
-    </div>
- 
-    <div class="tools-row">
-      <div class="tools-row-label">Education</div>
-      <div class="tools-chips">
-        <span class="chip hot">MS Finance (STEM) · Babson College · President's Master's Scholar </span>
-        <span class="chip">Masters in Commerce · Mumbai University</span>
-        <span class="chip">Bachelors in Commerce · Mumbai University</span>
       </div>
     </div>
  
@@ -646,7 +659,6 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 5
     </div>
   </div>
 </div>
-
 
 <!-- CONTACT -->
 <div class="contact-section" id="contact">
